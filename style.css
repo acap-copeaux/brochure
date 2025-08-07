@@ -39,4 +39,3 @@ body.light-theme footer { background-color: #eeeeee; color: #444; }
 #themeToggle { margin-top: 1rem; padding: 0.5rem 1rem; background: transparent; border: 1px solid var(--primary-color-dark); color: var(--text-dark); border-radius: 5px; cursor: pointer; }
 
 body.light-theme #themeToggle { border-color: var(--primary-color-light); color: var(--text-light); }
-
