@@ -2,46 +2,58 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="ACaP' Copeaux - Multiservices, domotique, bricolage, sécurité et accompagnement">
-  <meta name="keywords" content="multiservices, bricolage, domotique, sécurité, coaching, rénovation, acap copeaux">
-  <meta name="author" content="ACaP' Copeaux">
-  <title>ACaP' Copeaux</title>
+  <title>ACaP' Copeaux - Votre quotidien entre nos mains</title>
   <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
 </head>
-<body>
+<body class="light-theme">
   <header>
-    <img src="assets/logo.png" alt="Logo ACaP Armor Vision" class="logo">
-    <h1>ACaP' Copeaux</h1>
-    <p class="baseline">Votre quotidien dans nos mains</p>
-    <button id="themeToggle">Changer de thème</button>
+    <div class="container">
+      <img src="assets/logo.png" alt="Logo ACaP' Copeaux" class="logo">
+      <nav>
+        <ul>
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#avis">Avis</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="theme-toggle">🌙</button>
+    </div>
   </header>  <main>
-    <section>
-      <h2>Nos Services</h2>
-      <ul>
-        <li>Multiservices & Bricolage</li>
-        <li>Domotique & Sécurité</li>
-        <li>Coaching & Accompagnement</li>
-        <li>Prévention & Surveillance</li>
-        <li>Création de documents professionnels</li>
-        <li>Sites web & QR Codes</li>
-      </ul>
-    </section><section>
-  <h2>Nous contacter</h2>
-  <div class="buttons">
-    <a href="mailto:acap.copeaux@gmail.com" class="btn">Email</a>
-    <a href="https://wa.me/message/F3KWPU4VBHB3B1" class="btn">WhatsApp</a>
-    <a href="https://www.instagram.com/acap_copeaux" class="btn">Instagram</a>
-    <a href="https://www.linkedin.com/in/acap-copeaux" class="btn">LinkedIn</a>
-    <a href="https://multiservicesacapcopeaux.com" class="btn">Ancien site</a>
-  </div>
+    <section id="accueil" class="section">
+      <h1>Votre quotidien entre nos mains</h1>
+      <p>Multiservices, bricolage, sécurité, domotique, accompagnement…</p>
+    </section><section id="services" class="section">
+  <h2>Nos services</h2>
+  <ul>
+    <li>🔧 Bricolage & réparations courantes</li>
+    <li>🏠 Installation domotique & sécurité</li>
+    <li>📦 Montage/Démontage de stands & mobilier</li>
+    <li>💬 Coaching & accompagnement à domicile</li>
+    <li>📄 Création de documents et visuels pro</li>
+    <li>🌐 Création de mini-sites & QR pro</li>
+  </ul>
+</section>
+
+<section id="avis" class="section">
+  <h2>Avis clients</h2>
+  <blockquote>
+    "Travail rapide et très propre, je recommande !"
+  </blockquote>
+  <blockquote>
+    "Professionnel, à l’écoute et efficace. Merci encore."
+  </blockquote>
+</section>
+
+<section id="contact" class="section">
+  <h2>Contact</h2>
+  <a class="btn" href="mailto:acap.copeaux@gmail.com">📧 Email</a>
+  <a class="btn" href="https://wa.me/message/F3KWPU4VBHB3B1">💬 WhatsApp</a>
 </section>
 
   </main>  <footer>
-    &copy; 2025 ACaP' Copeaux. Tous droits réservés.
-  </footer>  <script>
-    const toggleButton = document.getElementById('themeToggle');
-    toggleButton.addEventListener('click', () => {
-      document.body.classList.toggle('light-theme');
-    });
-  </script></body>
+    <p>&copy; 2025 ACaP' Copeaux. Tous droits réservés.</p>
+  </footer>
+</body>
 </html>
